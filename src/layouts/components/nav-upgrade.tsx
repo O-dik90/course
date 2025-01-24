@@ -8,7 +8,7 @@ import { textGradient } from 'src/theme/styles';
 
 // ----------------------------------------------------------------------
 
-export function NavUpgrade({ sx, ...other }: StackProps) {
+export function NavUpgrades({ sx, ...other }: StackProps) {
   return (
     <Box
       display="flex"

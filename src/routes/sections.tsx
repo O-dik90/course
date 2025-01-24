@@ -43,11 +43,15 @@ export function Router() {
         </DashboardLayout>
       ),
       children: [
-        { element: <HomePage />, index: true },
+        { path: 'dashboard', element: <HomePage />, index: true },
         { path: 'user', element: <UserPage /> },
         { path: 'products', element: <ProductsPage /> },
         { path: 'blog', element: <BlogPage /> },
       ],
+    },
+    {
+      path: '/',
+      element: <Page404 />,
     },
     {
       path: 'sign-in',
